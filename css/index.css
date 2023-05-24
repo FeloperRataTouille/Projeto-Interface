@@ -1,0 +1,69 @@
+/* Barra de navegacao */
+#buttons{
+    text-align: right;
+}
+
+/* Rodapé */
+footer{
+    bottom:0;
+    width:100%;
+    height: auto;
+    background-color: #DFBFBF;
+}
+
+
+/* Logo e Nome do Site */
+#logo{
+    display: block;
+    text-align: center;
+}
+#logo *{
+    display: block;
+}
+#logo span{
+    font-size: 100px;
+    color: #ad8383;
+    font: Times;
+}
+#junimo{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: auto;
+    top: 50px;
+}
+
+/* Barra de Pesquisa */
+main{
+    margin-bottom: 100px;
+    flex: 1;
+}
+#barra{
+    width: 500px;
+    height: auto;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#botaosearch{
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+background-color: white;
+border: 1px ;
+}
+
+/* Body */
+body{
+    background-color: rgb(248, 234, 234);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
