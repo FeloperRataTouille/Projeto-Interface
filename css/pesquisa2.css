@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(248, 234, 234);
+}
+
+html, body {
+    height: 100%;
+}
+
+#junimo{
+    width: 40px;
+    height: 40px;
+}
+
+#esquerda{
+    height: 100%;
+    border-radius: 10px;
+}
+#direita{
+    height: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    bottom:0;
+    width:100%;
+    height: auto;
+    background-color: #DFBFBF;
+}   
